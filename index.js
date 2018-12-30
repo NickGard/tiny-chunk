@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.chunk=function(e,r){var t=r===+r&&r>=1?Math.floor(r):1;return e.reduce(function(e,r,n){return n%t==0?e[e.length]=[r]:e[e.length-1].push(r),e},[])};
